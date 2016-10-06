@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/style.css" charset="utf-8"/>
+    <link rel="stylesheet" href="css/login.css" charset="utf-8"/>
+</head>
+<body>
+<div class="cbody w1200 clearfix">
+    <div class="sign">
+        <div class="register">
+            <div class="register_head">
+                <a href="javascript:;" class="reg_logo"></a>
+            </div>
+            <div class="register_main clearfix">
+                <div class="reg-left">
+                    <img src="images/sign.png" alt="" width="370" height="353">
+                </div>
+                <div class="reg-right login_form">
+                    <form id="loginForm" method="post" onsubmit="return false" action="">
+                        <h3>
+                            <a href="sign.html" target="_blank">注册</a>
+                            登录美丽说
+                        </h3>
+                        <div class="login_list">
+                            <p class="login_box">
+                                <input class="login_txt" id="mlsUser" name="mlsUser" type="text" placeholder="邮箱/手机号/昵称">
+                                <span></span>
+                                <span class="user_icon"></span>
+                            </p>
+                        </div>
+                        <div class="login_list">
+                            <p class="login_box">
+                                <input class="login_txt" id="password" name="password" type="password" placeholder="密码">
+                                <span></span>
+                                <span class="pwd_icon"></span>
+                            </p>
+                        </div>
+                        <div class="login_list">
+                            <div class="login_box">
+                                <p class="notice_title">请点击下方图片旋转至正确位置，进行验证！</p>
+                                <div class="pic_auth">
+                                    <input class="login_txt" id="checkcode" name="checkcode" type="text" hidden="">
+                                    <ul class="pic_list">
+                                        <li><img src="images/login1.jpg" alt="" data-id="0"></li>
+                                        <li><img src="images/login2.jpg" alt="" data-id="1"></li>
+                                        <li><img src="images/login3.jpg" alt="" data-id="2"></li>
+                                        <li><img src="images/login4.jpg" alt="" data-id="3"></li>
+                                    </ul>
+                                    <a class="change_pic" href="javascript:;"> 换一组 </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loginErrorMessage none_f"></div>
+                        <div class="login_btn_wrap">
+                            <input type="submit" class="login_btn" value="立即登录">
+                        </div>
+                        <div class="remember">
+                            <input type="checkbox" name="savestate" id="savestate" checked="checked">
+                            <label for="savestate">记住我</label>
+                        </div>
+                        <div class="forget_pwd">
+                            <a href="http://www.meilishuo.com/account/findPwd" target="_blank">忘记密码？</a>
+                        </div>
+                    </form>
+                    <div class="fast_login">
+                        <h3>无需注册，即可登录</h3>
+                        <div class="fast_way">
+                            <a href="javascript:;" class="qq_way"></a>
+                            <a href="javascript:;" class="sina_way"></a>
+                            <a href="javascript:;" class="weixin_way"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

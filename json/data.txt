@@ -1,0 +1,7 @@
+[
+{"imgSrc":"images/banner1.jpg","desc":"美丽说的banner1"},
+{"imgSrc":"images/banner2.jpg","desc":"美丽说的banner2"},
+{"imgSrc":"images/banner3.jpg","desc":"美丽说的banner3"},
+{"imgSrc":"images/banner4.jpg","desc":"美丽说的banner4"},
+{"imgSrc":"images/banner5.jpg","desc":"美丽说的banner5"}
+]
